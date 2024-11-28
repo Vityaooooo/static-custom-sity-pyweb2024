@@ -1,0 +1,13 @@
+baseURL = 'https://vityaooooo.github.io/static-custom-sity-pyweb2024'
+languageCode = 'ru-ru'
+title = 'My Hugo Site'
+description = 'Static site based on Hugo'
+author = "Ilyasov Viktor"
+theme = 'my-theme'
+
+[params]
+    description = 'This is a description of my website.'
+    author = 'Ilyasov Viktor'
+
+[permalinks]
+  posts = "/posts/:slug/"
