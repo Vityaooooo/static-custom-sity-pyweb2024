@@ -208,7 +208,10 @@
             node-version: '20' 
 
         - name: Install Node.js dependencies
-            run: npm run build:css
+        run: npm ci
+
+        - name: Build CSS with PostCSS
+        run: npm run build:css
 
         - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
