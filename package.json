@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build:css": "postcss assets/css/*.css -d static/css/"
+    "build:css": "postcss themes/my-theme/static/css/*.css -d static/css/"
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
